@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="nn.png" type="image/x-icon"/>
+    <title>Website Kita</title>
+</head>
+<body>
+    <header>
+      <div class="logo">Website</div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang kami.html">Tentang kami</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script src="/script.js"></script>
+    
+    <main>
+        <section>
+          <div class="container">
+            <div class="logo">
+              <img src="nn.png" alt="logo">
+            </div>
+            <div class="content">
+              <h2>Selamat Datang di Website Kita</h2>
+              <h3>ini contoh tampilan website saya dan rekan saya</h3>
+            </div>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+        <p>&copy; 2024 Website Kita. Hubungi Kita di info@websitekita.com </p>
+    </footer>
+
+    <script>
+      const Hamburger = document.getElementById('hamburger')
+      const Nav = document.getElementById('menu')
+
+      Hamburger.addEventListener('click', () => {
+        Nav.classList.toggle('hidden')
+      })
+
+      Close.addEventListener('click', () => {
+        Nav.classList.toggle('hidden')
+      })
+    </script>
+
+</body>
+</html>

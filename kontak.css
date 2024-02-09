@@ -1,0 +1,221 @@
+    
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #ad76e4;
+    color: #fff;
+    padding: 30px;
+    text-align:left;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+section {
+    height: 200dvh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+footer {
+    background-color: #ad76e4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; 
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    height: 200px; 
+    border: 2px solid #333; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 1000px
+}
+
+.outer-box {
+    width: 350px; 
+    height: 450px; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.content {
+    flex: 20;
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+ul li a {
+    text-decoration: none;
+}
+  
+h1 {
+    margin: 0; 
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    border: none;
+    font-size: 16px; 
+    margin-top: 10px;
+    display: block; 
+    width: auto; 
+    background-color: #4CAF50; 
+    color: white; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-color: red; 
+}
+
+.merekDropdown {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    border-color: black; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+/* Style untuk input */
+input[type="number"] {
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; 
+    box-sizing: border-box;
+    border-color: black; 
+   
+}
+
+label[for="merek_tas"] {
+    margin-bottom: 10px;
+}
+
+label[for="jumlah_pesanan"] {
+    display: block;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+      font-size: 75%;
+    }
+    .simply-countdown > .simply-section {
+      padding: 70px;
+    }
+    .home .heart {
+      display: none;
+    }
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 65%;
+    }
+    .simply-countdown > .simply-section {
+      padding: 60px;
+      margin: 5px;
+    }
+    .mynavbar .navlink {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .sticky-top {
+      overflow: hidden;
+    }
+  }
+  
+  /* Mobile Phone */
+  @media (max-width: 576px) {
+    html {
+      font-size: 60%;
+    } 
+    .simply-countdown > .simply-section {
+      padding: 45px;
+      margin: 3px;
+    }
+  }
