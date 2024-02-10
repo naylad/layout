@@ -156,7 +156,6 @@ label {
     margin-bottom: 5px; 
 }
 
-/* Style untuk input */
 input[type="number"] {
     padding: 8px; 
     border: 1px solid #ccc;
@@ -178,7 +177,7 @@ label[for="jumlah_pesanan"] {
     margin-bottom: 10px; 
 }
 
-/* Laptop */
+
 @media (max-width: 992px) {
     html {
       font-size: 75%;
@@ -191,7 +190,7 @@ label[for="jumlah_pesanan"] {
     }
   }
   
-  /* Tablet */
+ 
   @media (max-width: 768px) {
     html {
       font-size: 65%;
@@ -209,7 +208,7 @@ label[for="jumlah_pesanan"] {
     }
   }
   
-  /* Mobile Phone */
+
   @media (max-width: 576px) {
     html {
       font-size: 60%;

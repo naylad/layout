@@ -5,35 +5,35 @@ body {
     background-color: #f8f8f8;
     color: #333;
     text-align: center;
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
     background-color: #ad76e4;
     color: #fff;
-    padding: 30px;
+    padding: 40px;
     text-align:left;
-}
-
-main {
+  }
+  
+  main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
-}
-
-section {
+  }
+  
+  section {
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #ad76e4;
     color: #fff;
     text-align: center;
@@ -42,9 +42,9 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto; 
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     padding: 20px;
     align-items: center; 
@@ -55,252 +55,81 @@ footer {
     margin-top: 20px; 
     margin-bottom: 10px;
     width: 600px;
-}
-
-
-.content {
+  }
+  
+  
+  .content {
     flex: 20;
     text-align: center; 
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center; 
-}
-
-.hamburger {
+  }
+  
+  .hamburger {
     display: none;
-}
-
-
-nav li {
+  }
+  
+  
+  nav li {
   display: inline;
   margin-right: 20px;
   font-weight: normal; 
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     text-decoration: none;
-}
-
-h1 {
+  }
+  
+  h1 {
     margin: 0;
-}
-
-p {
+  }
+  
+  p {
     margin-bottom: 1px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-h2 {
+  }
+  
+  h2 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
-}
-
-.logo {
-    flex:5;
-}
-
-.logo img {
+  }
+  
+  .logo {
+    flex: 5;
+    font-size: 30px;
+    font-weight: bold; 
+  }
+  
+  
+  .logo img {
     max-width: 100%; 
     height: auto;
     border-radius: 50%; 
     margin-top: 10px;
-}
+  }
+  
+  
 
-
-@media only screen and (max-width: 900px) {
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger .line {
-        width: 30px;
-        height: 3px;
-        background: #fff;
-        margin: 6px 0;
-    }
-    .nav-bar{
-        height: 0;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        background-color: #fff;
-        box-shadow: 0 16px 8px -9px rgba(191, 191, 191, 1);
-        transition: 0.5s;
-        overflow: hidden;
-    }
-    *, html {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: e5f2ff;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-        background-color: #e4f1ff;
-    }
-    header {
-        width: 100%;
-        height: 80px;
-        background-color: #ad76e4;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 100px;
-        align-items: center;
-        background-color: #ad76e4;
-        color: #000000;
-        padding: 30px;
-        text-align: left;
-    }
-    .logo {
-        font-size: 28px;
-        font-weight: 600;
-        color: rgb(0, 0, 0);
-    }
-    .hamburger {
-        display: none;
-    }
-    .nav-bar ul {
-        display: flex;
-        list-style: none;
-    }
-    .nav-bar ul li a{
-        text-decoration: none;
-        display: block;
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        padding: 10px 25px;
-        margin: 0 5px;
-        transition: .2s;
-    }
-    .nav-bar ul li a::after{
-        display: block;
-        content: "";
-        border-bottom: 2px solid #1f2935;
-        transform: scaleX(0);
-        transition: transform 250ms ease-in-out;
-    }
-    .nav-bar ul li a:hover::after{
-        transform: scaleX(1);
-    }
-    .nav-bar ul li a.acrive {
-        color:antiquewhite;
-    }
-    
-    h1 {
-        margin: 0;
-    }
-    
-    main {
-        max-width: 900px;
-        margin: 100px auto;
-    }
-    
-    section {
-        background-color: #fff;
-        padding: 30px;
-        border-radius: 8px;
-        display: flex;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .container {
-        display: flex;
-        align-items: center;
-    }
-    
-    .logo img {
-        width: 250px;
-        margin-right: 10px;
-    }
-    
-    .content {
-        flex-grow: 1;
-    }
-    
-    section h2 {
-        text-align: left;
-        font-size: 25px;
-    }
-    
-    @media only screen and (max-width: 900px) {
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-        .hamburger .line {
-            width: 30px;
-            height: 3px;
-            background: #fff;
-            margin: 6px 0;
-        }
-        .nav-bar{
-            height: 0;
-            position: absolute;
-            top: 80px;
-            left: 0;
-            right: 0;
-            width: 100vw;
-            background-color: #fff;
-            box-shadow: 0 16px 8px -9px rgba(191, 191, 191, 1);
-            transition: 0.5s;
-            overflow: hidden;
-        }
-        .nav-bar .active {
-            height: 450px;
-        }
-        .nav-bar ul {
-            display: block;
-            width: fit-content;
-            margin: 80px auto 0 auto;
-            text-align: center;
-            transition: 0.5s;
-            opacity: 0;         
-        }
-        .nav-bar.active ul {
-            opacity: 1;
-        }
-        .nav-bar ul li a {
-            margin-bottom: 12px;
-        }   
-    }
-}    
-
-
-
-@media (max-width: 992px) {
+  @media (max-width: 992px) {
     html {
       font-size: 75%;
     }
-    .simply-countdown > .simply-section {
-      padding: 70px;
-    }
-    .home .heart {
-      display: none;
-    }
   }
   
-
+ 
   @media (max-width: 768px) {
     html {
       font-size: 65%;
-    }
-    .simply-countdown > .simply-section {
-      padding: 60px;
-      margin: 5px;
     }
     .mynavbar .navlink {
       font-size: 2rem;
@@ -311,12 +140,100 @@ h2 {
     }
   }
   
-  
-  @media (max-width: 576px) {
+ 
+  @media only screen and (max-width: 576px) {
     html {
       font-size: 60%;
     } 
-    .simply-countdown > .simply-section {
+    section {
+      padding-bottom: 40px;
+      padding-top: 0px;
+    }
+    .content h2 {
+      font-size: 20px;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+    .hamburger .line {
+      width: 26px;
+      height: 3px;
+      background-color: white;
+      margin: 6px 0;
+    }
+    .logo {
+      flex: 5;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left; 
+    
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; 
+  }
+  
+  .logo img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-left: 0;
+  }
+  
+  
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 16px 8px -9px rgba(191, 191, 191, 1);
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: left; 
+  }
+  
+    .nav-bar.active {
+      height: 250px;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #e5f2ff;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+  }
+    .nav-bar ul {
+      display: block;
+      width: fit-content;
+      margin: 50px auto 0 auto;
+      text-align: center;
+      transition: 0.5s;
+      opacity: 0;
+    }
+    .nav-bar ul li {
+      display: flex;
+      margin-left: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .nav-bar.active ul {
+      opacity: 1;
+    }
+    .nav-bar ul li a {
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: white;
+    }
+    .simply-section {
       padding: 45px;
       margin: 3px;
     }
